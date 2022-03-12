@@ -1,0 +1,21 @@
+const kelvin = 300 // variable for kelvin will remain consistent
+const celsius = kelvin - 273;
+//Celsius is exactly 273 degrees less then kelvin
+let fahrenheit = celsius * (9/5) + 32
+// formula to find fahrenheit
+fahrenheit = Math.floor(fahrenheit);
+//We do not want a decimal answer, Math.floor will round down the answer
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+
+New way of calculating with functions
+
+
+function multiplyByNineFifths(number) {
+  return number * (9/5);
+};
+ 
+function getFahrenheit(celsius) {
+  return multiplyByNineFifths(celsius) + 32;
+};
+ 
+getFahrenheit(15); // Returns 59
