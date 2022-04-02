@@ -1,4 +1,4 @@
-const input = 'turpentine and turtles'
+/* const input = 'turpentine and turtles'
 
 const vowels = ['a', 'e', 'i', 'o', 'u']
 
@@ -26,4 +26,23 @@ for(let inputIndex = 0; inputIndex<input.length; inputIndex++){
 
 const resultString = resultArray.join('').toUpperCase();
 
+console.log(resultString);
+*/
+
+const input = 'turpentine and turtles'
+const vowels = ['a', 'e', 'i', 'o', 'u']
+// left empty because we will be adding new "Whale talk" to this array
+const resultArray = [] 
+
+for (let inputIndex = 0; inputIndex < input.length; inputIndex++) {
+    const val = input[inputIndex]
+    if (vowels.includes(val)) {
+        resultArray.push(val);
+        if (val === 'e' || val === 'u'){
+            resultArray.push(val);
+        }
+    }
+}
+
+const resultString = resultArray.join('').toUpperCase();
 console.log(resultString);
