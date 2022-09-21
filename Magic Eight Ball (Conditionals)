@@ -37,7 +37,7 @@ let eightBall = '';
       eightBall = ('Outlook not so good');
       break;
     case 7:
-      eightBall = ('Signs point to yes');
+      eightBall = ('Signs point to yes!');
       break;
   }
 
