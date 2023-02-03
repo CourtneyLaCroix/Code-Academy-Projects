@@ -1,0 +1,38 @@
+<DOCTYPE! html>
+<html lang="en">
+<html>
+  <head>
+    <link href="./ResourcesDAC/Dasmoto's Arts & Crafts.css" rel="stylesheet" type="text/css">
+    <title>Dasmoto's Arts & Crafts</title>
+
+  </head>
+  
+  <body>
+    
+    <h1 class="header">Dasmoto's Arts & Crafts</h1>
+
+    <section>
+      <h2 class="Brushes">Brushes</h2>
+      <img src="./ResourcesDAC/Photos/hacksaw.jpeg" alt="hacksaw brushes">
+      <h4>Hacksaw Brushes</h4>
+      <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span class="price">Starting at $3.00 / brush.</span></p>
+    </section>
+
+    <section>
+      <h2 class="Frames">Frames</h2>
+      <img src="./ResourcesDAC/Photos/frames.jpeg" alt="picture of large frames">
+      <h4>Art Frames (assorted)</h4>
+      <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span class="price">Starting at $2.00 / frame.</span></p>
+    </section>
+
+    <section>
+      <h2 class="Paint">Paint</h2>
+      <img src="./ResourcesDAC/Photos/finnish.jpeg" alt=" picture of oil paints">
+      <h4>Clean Finnish Paint</h4>
+      <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span class="price">Starting at $5.00 / tube.</span></p>
+    </section>
+
+  </body>
+
+
+</html>
